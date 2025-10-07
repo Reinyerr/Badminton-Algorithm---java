@@ -56,7 +56,7 @@ java Main
 ```
 
 ## 🧠 Algorithm Logic
-Initialization
+**Initialization**
 
 Each player (1..n) starts with:
 
