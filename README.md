@@ -62,21 +62,15 @@ Initialization
 
 Each player (1..n) starts with:
 
-A list of opponents they haven’t faced
+- A list of opponents they haven’t faced
+- A list of teammates they haven’t partnered with
 
-A list of teammates they haven’t partnered with
-
-Round Generation
-
-Courts are filled based on availability.
-
-Singles → pick 2 players who haven’t faced each other.
-
-Doubles → pick 4 players ensuring unique team compositions.
-
-If there are leftover players, some may rest.
-
-Display all matchups for the round.
+Round Generation:
+- Courts are filled based on availability.
+- Singles → pick 2 players who haven’t faced each other.
+- Doubles → pick 4 players ensuring unique team compositions.
+- If there are leftover players, some may rest.
+- Display all matchups for the round.
 
 ``` bash
 Round 1:
